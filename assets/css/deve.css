@@ -1,0 +1,124 @@
+.dev-hdr{
+    font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #474747;
+}
+.dev-p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 40px;
+/* or 154% */
+
+text-align: center;
+
+color: #676767;
+}
+.first-card-first {
+    /* width: 299px; */
+height: 360px;
+left: 122px;
+top: 1299px;
+
+background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.card-hr {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #366AEC;
+}
+.card-p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+color: #474747;
+}
+.first-card-second {
+    /* width: 299px; */
+height: 560px;
+margin-top: 50px;
+background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.dev-first-section {
+    /* height: 600px; */
+    padding: 67px 0px;
+    background: #F2F2F2;
+}
+.secnd-card-first {
+    /* width: 299px; */
+    height: 462px;
+background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.secnd-card-second {
+    /* width: 299px; */
+    height: 452px;
+    margin-top: 50px;
+background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.third-card {
+    /* width: 466px; */
+height: 965px;
+left: 852px;
+top: 1299px;
+
+background: #FFFFFF;
+box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.trd-dev-h {
+    font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+/* identical to box height, or 133% */
+
+
+color: #366AEC;
+}
+.h-200 {
+    /* height: 200px; */
+}
+.cntct-lst-hdr {
+    font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+margin-bottom: 40px;
+margin-top: 20px;
+color: #000000;
+}
+.h-80 {
+    height: 80px;
+}
+.dev-form-hr {
+    font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+color: #366AEC;
+}
+.dev-form-p {
+    font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #474747;
+}
+.second-section-about {
+    padding: 67px 20px;
+    height: fit-content;
+}

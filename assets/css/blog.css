@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.b-p {
+    /* width: 1440px; */
+    height: 680px;
+    left: 0px;
+    top: 100px;
+
+    background: rgba(106, 149, 255, 0.62);
+}
+
+.b-p-header {
+    /* width: auto;
+    height: 80px; */
+    left: 159px;
+    top: 393px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.justify-center{
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.portfolio-gallery {
+  padding: 20px;
+  /* width: 1280px; */
+  margin: 40px auto;
+}
+.portfolio-gallery ul {
+  display: flex;
+  margin-bottom: 50px;  
+}
+.portfolio-gallery ul li {
+    /* width: 200px; */
+    text-align: center;
+  list-style: none;
+  color: #366AEC;
+  /* background: #eee; */
+  border: 2px solid #366AEC;
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.portfolio-gallery ul li.active {
+    border-radius: 20px;
+  background: #366AEC;
+  color: #fff;
+}
+.portfolio-gallery .product {
+  display: flex;
+  flex-wrap: wrap;
+  /* -webkit-box-pack: center;
+  justify-content: center; */
+}
+.portfolio-gallery .product .itemsbox {
+
+    position: relative;
+    width: 363px;
+    height: 270px;
+    margin: 25px;
+  
+}
+.portfolio-gallery .product .itemsbox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 363px;
+  height: 270px;
+  border-radius: 10px;
+}

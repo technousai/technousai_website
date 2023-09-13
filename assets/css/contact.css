@@ -1,0 +1,126 @@
+.b-p-header-contact{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: white;
+    padding: 288px 0px;
+}
+.icon {
+    width: 33px;
+height: 44px;
+left: 285.6px;
+top: 944px;
+}
+.contact-sec-section .content-p1{
+    font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+color: #000000;
+}
+.contact-sec-section .content-p2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #474747;
+}
+.contact-secn-img {
+    border-radius: 50%;
+}
+.cont-p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+
+color: #474747;
+}
+.self-center{
+    align-self: center
+}
+.form-sec-hdr{
+    font-weight: 700;
+font-size: 26px;
+line-height: 39px;
+color: #366AEC;
+}
+.form-sec-p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+     color: #474747;
+}
+.contact-form input {
+    border: 1.5px solid #366AEC;
+    padding: 9px 30px;
+    border-radius: 10px;
+}
+.contact-form textarea {
+    border: 1.5px solid #366AEC;
+    padding: 9px 30px;
+    border-radius: 10px;
+}
+.map {
+    width: auto;
+}
+.first-section-about {
+    height: fit-content;
+    padding: 67px 0px;
+    background: #F2F2F2;
+}
+
+/*-----whatsapp contact-------*/
+.whatsapp-btn-container{
+    position: fixed;
+    right: 10px;
+    opacity: 0;
+    bottom: -1000px;
+    padding: 24px;
+    animation: fade-up 500ms forwards;
+    animation-delay: 1000ms;
+  }
+  
+  @keyframes fade-up {
+    100%{
+       bottom: 50px;
+       opacity: 1; 
+    }
+  
+  }
+  .whatsapp-btn-container .whatsapp-btn{
+    font-size: 40px;
+    color: #25d366;
+    display: inline-block;
+    transition: all 400ms;
+  }
+  
+  .whatsapp-btn-container .whatsapp-btn:hover{
+    transform: scale(1.2);
+  }
+  
+  
+  .whatsapp-btn-container span{
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: #075e54;
+    transform:rotateZ(50deg) translateX(0px);
+    opacity: 0;
+    transition: all 400ms;
+  }
+  
+  
+  .whatsapp-btn-container .whatsapp-btn:hover + span{
+    transform:rotateZ(0deg) translateX(0px);
+    opacity: 1;
+  }
+  /*-----whatsapp contact end-------*/

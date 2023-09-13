@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/* container control start */
+@media screen and (min-width: 576px){
+    .container.custom-for-sl {
+        max-width: 570px;
+    }
+}
+@media screen and (min-width: 768px){
+    .container.custom-for-sl {
+        max-width: 750px;
+    }
+}
+@media screen and (min-width: 992px){
+    .container.custom-for-sl {
+        max-width: 990px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .container.custom-for-sl {
+        max-width: 1170px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .container {
+        max-width: 1200px;
+        width: 100%;
+    }
+    .container.custom {
+        max-width: 1400px;
+    }
+    .container.custom-for-sl {
+        max-width: 1230px;
+    }
+    .slider {
+        height: 500px !important;
+    }
+}
+/* container control end */
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) {
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+
+   .hero-right-image {
+    height: 400px;
+    width: 89vw;
+    opacity: 0.55;
+   }
+   .hero-section h1 {
+    font-size: 55px;
+}
+.hero-content h3 {
+    font-size: 30px;
+}
+.hero-content {
+    font-size: 16px;
+}
+.hero-section {
+    height: 399px;
+}
+.intro-bg {
+    height: 865px;
+}
+.cntr-sec {
+    text-align: center;
+    margin: unset;
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+}
+.intro-img {
+    height: auto;
+    width: 150px;
+}
+.service-card {
+    max-width: 100%;
+    padding: 0px 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.serv-img-sec img {
+    width: 382px;
+}
+.testimonial4_slide {
+width: 92%;
+height: 620px;
+}
+.testimonial4_slide p {
+    padding: 10px;
+}
+.carousel-control-prev {
+    display: none;
+}
+.carousel-control-next {
+    display: none;
+}
+.menu-icons {
+    padding: 12px 0px!important;
+}
+.md-wrap{
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* .md-display-flex {
+    flex-direction: column!important;
+    display: flex!important;
+} */
+.md-disp-unset {
+    display: unset!important;
+}
+.md-text-center{
+    text-align: center;
+}
+.img-w-h-200 {
+    width: 371px!important;
+    height: 200px!important;
+}
+.lh-60 {
+    line-height: 60px;
+}
+/* .first-card-first {
+    width: 100%;
+}
+.first-card-second {
+    width: 100%;
+}
+.secnd-card-first {
+    width: 100%;
+}
+.secnd-card-second {
+    width: 100%;
+}
+.third-card {
+    width: 100%;
+} */
+}
+@media only screen and (device-width: 768px) {
+   /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+}
